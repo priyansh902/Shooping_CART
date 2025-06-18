@@ -26,7 +26,7 @@ class DBConnection {
     public static Connection getConnection() throws SQLException {
         String url = "jdbc:mysql://localhost:3306/zom";
         String user = "root";
-        String password = "9027707502";
+        String password = "*******";
         return DriverManager.getConnection(url, user, password);
     }
 }
